@@ -10,11 +10,11 @@ if os.path.exists(requirements_file):
 
 setup(
     name='apiverve_bucketlist',
-    version='1.1.8',
+    version='1.1.9',
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,
-    description='Bucket List is a simple tool for getting a random bucket list item. It returns a random item from a predefined list of items.',
+    description='Bucket List is a simple tool for getting a random bucket list item. It returns a random bucket list item',
     author='APIVerve',
     author_email='hello@apiverve.com',
     url='https://apiverve.com',
